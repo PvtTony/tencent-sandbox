@@ -13,6 +13,11 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
+            <HostFolder>.\App\Weixin</HostFolder>
+            <SandboxFolder>C:\Program Files\Tencent\Weixin</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
             <HostFolder>.\App\QQ</HostFolder>
             <SandboxFolder>C:\Program Files (x86)\Tencent\QQ</SandboxFolder>
             <ReadOnly>false</ReadOnly>
@@ -28,6 +33,16 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
+            <HostFolder>.\App\WeMeet</HostFolder>
+            <SandboxFolder>C:\Program Files\Tencent\WeMeet</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\TencentDocs</HostFolder>
+            <SandboxFolder>C:\Program Files\TencentDocs</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
             <HostFolder>.\App\WXWork</HostFolder>
             <SandboxFolder>C:\Program Files (x86)\WXWork</SandboxFolder>
             <ReadOnly>false</ReadOnly>
@@ -36,6 +51,11 @@
         <MappedFolder>
             <HostFolder>.\Data\Roaming\WeChat</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\WeChat</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\xwechat</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\xwechat</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
@@ -60,6 +80,11 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
+            <HostFolder>.\Data\Documents\xwechat_files</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\xwechat_files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
             <HostFolder>.\Data\Documents\Tencent</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Tencent Files</SandboxFolder>
             <ReadOnly>false</ReadOnly>
@@ -67,16 +92,6 @@
         <MappedFolder>
             <HostFolder>.\Data\Documents\WXWork</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WXWork</SandboxFolder>
-            <ReadOnly>false</ReadOnly>
-        </MappedFolder>
-        <MappedFolder>
-            <HostFolder>.\App\Meeting</HostFolder>
-            <SandboxFolder>C:\Program Files (x86)\Tencent\WeMeet</SandboxFolder>
-            <ReadOnly>false</ReadOnly>
-        </MappedFolder>
-        <MappedFolder>
-            <HostFolder>.\App\TencentDocs</HostFolder>
-            <SandboxFolder>C:\Program Files\TencentDocs</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <!-- Common Files -->
@@ -99,7 +114,7 @@
         </MappedFolder>
         <!-- SysWOW64 -->
         <MappedFolder> 
-          <HostFolder>.\Data\SysWOW64</HostFolder> 
+          <HostFolder>C:\Windows\SysWOW64</HostFolder> 
           <SandboxFolder>C:\Windows\SysWOW64</SandboxFolder> 
           <ReadOnly>true</ReadOnly> 
         </MappedFolder>
